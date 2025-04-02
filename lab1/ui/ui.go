@@ -170,7 +170,7 @@ func (m model) View() string {
 		}
 
 	case statePrecision:
-		s.WriteString("Enter desired precision:\n")
+		s.WriteString("Enter precision:\n")
 		s.WriteString("Example: 0.0001 or 1e-4\n\n")
 		s.WriteString(m.inputBuffer)
 		if m.blink {
